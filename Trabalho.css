@@ -1,0 +1,394 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box;
+  text-decoration: none;
+  list-style:none;
+  }
+  body{
+ font-family: 'Poppins', sans-serif;
+ background:rgb(119, 119, 119);
+  }
+
+.background-verde{
+background:rgb(119, 119, 119);
+  }
+header{
+background-color:#000000;
+}
+.container{
+  max-width:1440px;;
+  padding: 0 5%;
+  margin: 0 auto;
+  }
+  .Btn-gradient{
+  padding: 10px 20px;
+  color:white;
+  border:none;
+  cursor:pointer;
+  background-image: linear-gradient(rgb(145, 145, 145), rgb(194, 194, 194));
+  }
+
+  nav{
+  display: flex;
+  justify-content:space-between;
+  align-items:center;
+  padding: 20px 0;
+  }
+  .logo a{
+  font-size:30px;
+  font-weight: bold;
+  color: white;
+  }
+  .ul{
+  display:flex;
+  align-items:center;
+  }
+  .ul li{
+    margin: 0 35px;
+    font-size: 15px;
+  }
+  .ul li a{
+  color:white;
+  }
+ 
+ /* body {
+  background-color: grey;
+  margin: 0;
+  padding: 0;
+  font-family: "Jacques Francois", sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+#header {
+  position: absolute;
+  width: 1600px;
+  height: 78px;
+  left: 0px;
+  top: 0px; 
+  width:100%;
+  height:10%;
+  background: #0c0c0c;
+}
+
+p#speedstrike {
+  position: absolute;
+  width: 97px;
+  height: 28px;
+  left: 27px;
+  top: 13px; 
+  font-family: "Jacques Francois";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 22px;
+
+  color: #ffffff;
+}
+
+p#conta {
+  position: absolute;
+  width: 48px;
+  height: 22px;
+  left: 1196px;
+  top: 13px;
+
+  font-family: "Jacques Francois";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 22px;
+
+  color: #ffffff;
+}
+
+p#favorito {
+  position: absolute;
+  width: 48px;
+  height: 22px;
+  left: 1312px;
+  top: 17px;
+  color: white;
+} */
+
+div#carrosel {
+ position: relative;
+  top: 100px;
+  left: 218px;
+  /* width: 800px;
+  height: 500px;  */
+  width: 1081px;
+  height: 565px; 
+  border: 1px solid black;
+  transition: transform 0.3s, box-shadow 0.3s;
+  overflow: hidden;
+}
+
+div#recado {
+  position: absolute;
+  width: 588px;
+  height: 114px;
+  left: 477px;
+  top: 786px;
+  background: white;
+  border-radius: 50px;
+  border: 5px solid black;
+}
+
+p#txt {
+  position: relative;
+  top: 13px;
+  left: 100px;
+  font-size: 30px;
+}
+layout{
+  display: flex;
+  justify-content:space-between;
+  align-items:center;
+  padding: 20px 0;
+}
+div#produto1 {
+  position: absolute;
+  width: 256px;
+  height: 395px;
+  left: 73px;
+  top: 1119px;
+  background: #ffffff;
+  border: 5px solid black;
+}
+
+div#produto2 {
+  position: absolute;
+  width: 256px;
+  height: 395px;
+  left: 442px;
+  top: 1119px;
+  background: #ffffff;
+  border: 5px solid black;
+}
+
+div#produto3 {
+  position: absolute;
+  width: 256px;
+  height: 395px;
+  left: 788px;
+  top: 1119px;
+  background: #ffffff;
+  border: 5px solid black;
+}
+
+div#produto4 {
+  position: absolute;
+  width: 256px;
+  height: 395px;
+  left: 1162px;
+  top: 1119px;
+  background: #ffffff;
+  border: 5px solid black;
+}
+
+div#img {
+  box-sizing: border-box;
+  position: absolute;
+  width: 146px;
+  height: 206px;
+  left: 55px;
+  top: 33px;
+  border: 5px solid black;
+}
+
+div#img2 {
+  box-sizing: border-box;
+  position: absolute;
+  width: 146px;
+  height: 206px;
+  left: 55px;
+  top: 33px;
+  border: 5px solid black;
+}
+
+div#img3 {
+  box-sizing: border-box;
+  position: absolute;
+  width: 146px;
+  height: 206px;
+  left: 55px;
+  top: 33px;
+  border: 5px solid black;
+}
+
+div#img4 {
+  box-sizing: border-box;
+  position: absolute;
+  width: 146px;
+  height: 206px;
+  left: 55px;
+  top: 33px;
+  border: 5px solid black;
+}
+
+div#preco {
+  box-sizing: border-box;
+  position: absolute;
+  width: 131px;
+  height: 29px;
+  left: 62px;
+  top: 256px;
+  border: 1px solid #000000;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 50px;
+}
+
+div#preco2 {
+  box-sizing: border-box;
+  position: absolute;
+  width: 131px;
+  height: 29px;
+  left: 62px;
+  top: 256px;
+  border: 1px solid #000000;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 50px;
+}
+
+div#preco3 {
+  box-sizing: border-box;
+  position: absolute;
+  width: 131px;
+  height: 29px;
+  left: 62px;
+  top: 256px;
+  border: 1px solid #000000;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 50px;
+}
+
+div#preco4 {
+  box-sizing: border-box;
+  position: absolute;
+  width: 131px;
+  height: 29px;
+  left: 62px;
+  top: 256px;
+  border: 1px solid #000000;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 50px;
+}
+
+div#compra {
+  box-sizing: border-box;
+  position: absolute;
+  width: 143px;
+  height: 23px;
+  left: 75px;
+  top: 306px;
+}
+
+div#compra2 {
+  box-sizing: border-box;
+  position: absolute;
+  width: 143px;
+  height: 23px;
+  left: 75px;
+  top: 306px;
+}
+
+div#compra3 {
+  box-sizing: border-box;
+  position: absolute;
+  width: 143px;
+  height: 23px;
+  left: 75px;
+  top: 306px;
+
+}
+
+div#compra4 {
+  box-sizing: border-box;
+  position: absolute;
+  width: 143px;
+  height: 23px;
+  left: 75px;
+  top: 306px;
+}
+
+div#descricao {
+  position: absolute;
+  width: 256px;
+  height: 44px;
+  left: -5px;
+  top: 351px;
+  background: #000000;
+}
+
+div#descricao2 {
+  position: absolute;
+  width: 256px;
+  height: 44px;
+  left: -5px;
+  top: 351px;
+  background: #000000;
+}
+
+div#descricao3 {
+  position: absolute;
+  width: 256px;
+  height: 44px;
+  left: -5px;
+  top: 351px;
+  background: #000000;
+}
+
+div#descricao4 {
+  position: absolute;
+  width: 256px;
+  height: 44px;
+  left: -5px;
+  top: 351px;
+  background: #000000;
+}
+
+p#desc {
+  color: white;
+  position: absolute;
+  width: 152px;
+  height: 15px;
+  left: 63px;
+  top: 14px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 33px;
+}
+
+p#desc2 {
+  position: absolute;
+  width: 60px;
+  height: 15px;
+  left: 37px;
+  top: -5px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 33px;
+}
+
+img#camisa {
+  width: 138px;
+  height: 197px;
+}
+
+@media (max-width: 468px) {
+  #header {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .container {
+    grid-template-columns: 1fr;
+  }
+} 

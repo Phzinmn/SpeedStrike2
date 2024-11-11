@@ -1,0 +1,27 @@
+div#compra{
+position: absolute;
+width: 515px;
+height: 348px;
+left: 455px;
+top: 137px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 58px;
+color: #000000;
+
+}
+
+p#aviso{
+    position: relative;
+    top: 193px;
+    left: 71px;
+}
+
+img#check{
+    position: relative;
+    width: 164px;
+    left: 169px;
+    top: -101px;
+}

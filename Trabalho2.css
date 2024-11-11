@@ -1,0 +1,259 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box;
+  text-decoration: none;
+  list-style:none;
+  }
+  body{
+ font-family: 'Poppins', sans-serif;
+ background:rgb(255, 254, 254);
+  }
+
+.background-verde{
+background:rgb(255, 255, 255);
+  }
+header{
+background-color:#000000
+}
+.container{
+  max-width:1440px;
+  padding: 0 5%;
+  margin: 0 auto;
+  }
+  /* .Btn-gradient{
+  padding: 10px 20px;
+  color:white;
+  border:none;
+  cursor:pointer;
+  background-image: linear-gradient(rgb(145, 145, 145), rgb(194, 194, 194));
+  } */
+
+  nav{
+  display: flex;
+  justify-content:space-between;
+  align-items:center;
+  padding: 20px 0;
+  }
+  .logo a{
+  font-size:30px;
+  font-weight: bold;
+  color: white;
+  }
+  .ul{
+  display:flex;
+  align-items:center;
+  }
+  .ul li{
+    margin: 0 35px;
+    font-size: 15px;
+  }
+  .ul li a{
+  color:white;
+  }
+
+.background-verde{
+  display: flex;
+  justify-content:space-between;
+  align-items:center;
+}
+#compra {
+  max-width:1440px;
+  width:80%;
+  position: relative;
+  width: 1440px;
+  height: 1024px;
+  background: #ffffff;
+  left: 113px; 
+}
+
+ div#produto {
+  box-sizing: border-box;
+  position: absolute;
+  width: 455px;
+  height: 633px;
+  left: 144px;
+  top: 107px; 
+
+  border: 5px solid #000000;
+}
+
+div#valor {
+  box-sizing: border-box;
+  position: absolute;
+  width: 650px;
+  height: 191px;
+  left: 720px;
+  top: 174px;
+  border: 3px solid #000000;
+  border-radius: 40px;
+}
+
+p#valor2 {
+  position: absolute;
+  width: 255px;
+  height: 175px;
+  left: 43px;
+  top: 0px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 77px;
+  color: #000000;
+}
+
+p#valor3 {
+  position: absolute;
+  width: 255px;
+  height: 175px;
+  left: 243px;
+  top: 0px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 77px;
+  color: #000000;
+}
+
+div#pagar {
+  box-sizing: border-box;
+  position: absolute;
+  width: 650px;
+  height: 94px;
+  left: 720px;
+  top: 377px;
+  background: rgba(0, 0, 0, 0.29);
+  border: 1px solid #000000;
+  border-radius: 40px;
+}
+
+p#pagar2 {
+  position: absolute;
+  width: 363px;
+  height: 44px;
+  left: 34px;
+  top: 0px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 44px;
+  color: #000000;
+}
+
+p#deb {
+  position: absolute;
+  width: 363px;
+  height: 44px;
+  left: 426px;
+  top: 0px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 44px;
+  color: #000000;
+}
+
+div#pagamento {
+  box-sizing: border-box;
+  position: absolute;
+  width: 650px;
+  height: 183px;
+  left: 720px;
+  top: 576px;
+  background: #4cd422;
+  border: 1.5px solid #4cd422;
+  border-radius: 40px;
+}
+
+p#pag{
+position: relative;
+width: 496px;
+height: 58px;
+left: 102px;
+top: 19px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 58px;
+color: #000000;
+
+}
+div#cancelar {
+  position: absolute;
+  width: 332px;
+  height: 86px;
+  left: 879px;
+  top: 789px;
+}
+
+p#cancelar2 {
+  position: absolute;
+  width: 220px;
+  height: 66px;
+  left: 56px;
+  top: 10px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 58px;
+  color: #c60707;
+}
+
+div#desc {
+  position: absolute;
+  width: 455px;
+  height: 161px;
+  left: 144px;
+  top: 814px;
+}
+
+p#frete {
+  position: absolute;
+  width: 266px;
+  height: 58px;
+  left: 81px;
+  top: 0px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 58px;
+  color: #249707;
+}
+
+p#entrega {
+  position: absolute;
+  width: 400px;
+  height: 44px;
+  left: 28px;
+  top: 81px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 44px;
+  color: #000000;
+}
+
+img#camisa{
+  width: 445px;
+  height: 623px;
+}
+
+button#pagar2{
+  position: absolute;
+  width: 650px;
+  height: 183px;
+  background: #4cd422;
+  border-radius: 40px;
+}
+
+p#Confirmar{
+  font-size: 30px;
+} 
